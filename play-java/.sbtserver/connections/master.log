@@ -1,45 +1,13 @@
-New log file opened at Mon Oct 31 12:10:56 EDT 2016 by 4940@MattieIce
-Taking next connection to: 51954
-New client attempting to connect on port: 51955-51954
-  Address = /192.168.93.31:51954
-This client on port 51955 has uuid 5066a04d-7173-4062-9628-297019c6996f configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-5066a04d-7173-4062-9628-297019c6996f
-Taking next connection to: 51954
-New client attempting to connect on port: 51956-51954
-  Address = /192.168.93.31:51954
-Handshake exception on socket: 51956
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.read(SocketInputStream.java:150)
-	at java.net.SocketInputStream.read(SocketInputStream.java:121)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 51954
-New client attempting to connect on port: 51957-51954
-  Address = /192.168.93.31:51954
-This client on port 51957 has uuid 5a4fc8b7-82cb-472d-ae83-9468f1f5b824 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-5066a04d-7173-4062-9628-297019c6996f, play-fork-run-5a4fc8b7-82cb-472d-ae83-9468f1f5b824
-Taking next connection to: 51954
+New log file opened at Wed Nov 02 12:07:38 EDT 2016 by 66336@Scott-PC
+Taking next connection to: 60086
+New client attempting to connect on port: 60087-60086
+  Address = /192.168.56.1:60086
+This client on port 60087 has uuid 77fe7172-d649-4d6f-acca-bbcffe2d2394 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-77fe7172-d649-4d6f-acca-bbcffe2d2394
+Taking next connection to: 60086
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51954
+Taking next connection to: 60086
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51954
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51954
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51954
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51954
+Taking next connection to: 60086
